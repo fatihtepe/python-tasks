@@ -1,3 +1,8 @@
-# hello-world I am data science enthusiast. 
-Buraya deneme amacli birseyler yazalim.
+Hello World,
+
+I will put all my minor tasks here. 
+
+Thank you for checking!
+
+Fatih.
 
