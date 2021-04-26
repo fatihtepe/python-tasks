@@ -22,8 +22,8 @@ if number.isdigit():
     power = len(list_str_num)
     result = 0
 
-    for num in map(int, list_str_num):
-        result += num ** power
+    for num in list_str_num:
+        result += int(num) ** power
     if result == int(number):
         print(f'{number} is an Armstrong number')
     else:
