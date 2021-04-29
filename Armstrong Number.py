@@ -36,7 +36,7 @@ else:
 # Second Solution:
 
 while True :
-    number = input("enter a positive number.")
+    number = input("enter a positive number: ")
     digits = len(number)
     summ = 0
     if not number.isdigit() :
