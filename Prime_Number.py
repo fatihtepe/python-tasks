@@ -19,3 +19,12 @@ if (n == 0) or (n == 1) or (count == 3):
     print(f'{n} is not a prime number')
 else:
     print(f'{n} is a prime number')
+    
+    
+# Alternative Solution: if number is prime will return True
+
+def check_prime(number):
+    for x in range(2, int(number ** 0.5) + 1):
+        if number % x == 0:
+            return False
+    return True
