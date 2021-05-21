@@ -24,6 +24,3 @@ def sentence_dict(sentence):
     return s_dict
 
 print(sentence_dict(sentence))
-
-my_dict = sentence_dict(sentence)
-print(my_dict.keys())
