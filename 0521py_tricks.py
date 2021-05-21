@@ -128,7 +128,7 @@ print(a, b, c)  # George is cool
 
 # List comprehension
 a = [1, 2, 3]
-b = [num*2 for num in a] # Create a new list by multiplying each                                 element in a by 2
+b = [num*2 for num in a] # Create a new list by multiplying each element in a by 2
 print(b)  # [2, 4, 6]
 
 
