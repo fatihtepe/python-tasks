@@ -24,7 +24,7 @@ print('----------------------------------')
 # but you can coerce it into different datatypes 
 # directly using, say, the list(), tuple(), or dict() functions.
 
-names = ['Fatih', 'Ali', 'Melek', 'Dimitri']
+names = ['Fatih', 'Mert', 'Melek', 'Dimitri']
 ages = [32, 28, 37, 53]
 gender = ['Male', 'Male', 'Female', 'Male']
 
@@ -32,4 +32,4 @@ gender = ['Male', 'Male', 'Female', 'Male']
 zipped = zip(names, ages, gender)
 zipped_list = list(zipped)
 
-print(zipped_list) # [('Nik', 32, 'Male'), ('Jane', 28, 'Female'), ('Melissa', 37, 'Female'), ('Doug', 53, 'Male')]
+print(zipped_list) # [('Fatih', 32, 'Male'), ('Mert', 28, 'Male'), ('Melek', 37, 'Female'), ('Dimitri', 53, 'Male')]
